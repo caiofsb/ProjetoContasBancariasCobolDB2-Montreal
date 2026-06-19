@@ -1,6 +1,6 @@
-# Projeto Contas Bancárias COBOL DB2 - Montreal
+# Projeto Contas Bancárias COBOL DB2
 
-Projeto desenvolvido como continuação do Projeto de transações bancárias em COBOL, agora com integração ao banco de dados DB2.
+Projeto desenvolvido como continuação do [Projeto de transações bancárias em COBOL](https://github.com/caiofsb/Projeto-Transacoes-Bancarias-Cobol--Montreal), agora com integração ao banco de dados DB2.
 
 O objetivo do sistema é processar arquivos de clientes e transações bancárias, aplicar regras de negócio, atualizar saldos no DB2, registrar erros e gerar relatórios de processamento.
 
@@ -48,6 +48,8 @@ OUTPUT/
   DB2_REQUEST.txt       -> Arquivo com as requisições que o COBOL envia para o helper.
   DB2_RESPONSE.txt      -> Arquivo com as respostas retornadas pelo helper.
   RELATORIO_DB2.txt     -> Relatório final gerado consultando diretamente o DB2.
+JCL/
+  JCLP6.jcl -> JCL de prática.
 
 RUN_LOCAL.ps1           -> Script que ordena arquivos, compila e executa o projeto.
 
@@ -75,6 +77,9 @@ DB2
 Relatórios, logs e erros
 ```
 
+## Em Funcionamento no VSCODE
+
+<img width="1100" height="619" alt="2026-06-18 22-34-32 (1)" src="https://github.com/user-attachments/assets/176ee7a2-6540-49cd-9651-1661cdbd98f0" />
 
 ## Tabelas utilizadas
 
@@ -107,4 +112,4 @@ Em um ambiente mainframe real, a execução seria feita via JCL e DB2 no z/OS. M
 
 ## Objetivo final
 
-Este projeto demonstra a evolução do Projeto 5, mantendo a organização com COBOL e copybooks, mas adicionando integração com banco de dados DB2, controle de erros, histórico de transações e geração de relatórios a partir do banco.
+Este projeto demonstra a evolução do [Projeto 5](https://github.com/caiofsb/Projeto-Transacoes-Bancarias-Cobol--Montreal) mantendo a organização com COBOL, mas adicionando integração com banco de dados DB2, controle de erros, histórico de transações e geração de relatórios a partir do banco.
