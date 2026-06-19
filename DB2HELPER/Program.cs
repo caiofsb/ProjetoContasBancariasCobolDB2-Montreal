@@ -13,7 +13,7 @@ class Program
         "PORT=50000;" +
         "PROTOCOL=TCPIP;" +
         "UID=db2inst1;" +
-        "PWD=Senha123;";
+        "PWD= Mudar quando for rodar;";
 
     static string BaseDir = Directory.GetCurrentDirectory();
     static string OutDir = Path.Combine(BaseDir, "OUTPUT");
