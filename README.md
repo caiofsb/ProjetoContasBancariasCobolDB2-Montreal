@@ -22,7 +22,7 @@ COPYS/
   REGCLI6.cpy           -> Layout do arquivo de clientes.
   REGTRX6.cpy           -> Layout do arquivo de transações.
   REGOUT6.cpy           -> Layout dos arquivos de saída.
-  WRKP6.cpy             -> Variáveis de trabalho do sistema, usando o padrão WKR-.
+  WRKP6.cpy             -> Variáveis de trabalho do sistema.
   DBP6.cpy              -> Rotinas que montam as requisições para o DB2.
   ROTP6.cpy             -> Regras principais do processamento.
 
