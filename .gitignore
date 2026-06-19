@@ -1,0 +1,34 @@
+# .NET build outputs
+bin/
+obj/
+
+# Publicação do helper .NET
+helper/
+DB2HELPER/bin/
+DB2HELPER/obj/
+
+# Arquivos compilados do .NET
+*.dll
+*.exe
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+
+# Cache e arquivos temporários do .NET
+*.user
+*.suo
+*.rsuser
+.vs/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# COBOL compilado local
+PROJETO6.exe
+*.o
+*.so
+*.dll
