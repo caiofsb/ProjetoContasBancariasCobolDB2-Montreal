@@ -81,16 +81,21 @@ Relatórios, logs e erros
 
 <img width="1100" height="619" alt="2026-06-18 22-34-32 (1)" src="https://github.com/user-attachments/assets/176ee7a2-6540-49cd-9651-1661cdbd98f0" />
 
-## Tabelas utilizadas
+## O projeto utiliza as seguintes tabelas no DB2:
+<img width="827" height="224" alt="image" src="https://github.com/user-attachments/assets/6fef2958-1d94-4d47-8fd6-2e21238fca2e" />
 
-O projeto utiliza as seguintes tabelas no DB2:
+### CLIENTES                -> Guarda os dados dos clientes e seus saldos.
+<img width="936" height="249" alt="image" src="https://github.com/user-attachments/assets/d47855cf-75f0-413b-93d8-365850892d73" />
 
-```text
-CLIENTES                -> Guarda os dados dos clientes e seus saldos.
-TRANSACOES              -> Guarda as transações válidas processadas.
-ERROS_PROCESSAMENTO     -> Guarda os erros encontrados durante o processamento.
-HISTORICO_TRANSACOES    -> Guarda o histórico das transações processadas.
-```
+### TRANSACOES              -> Guarda as transações válidas processadas.
+<img width="1016" height="262" alt="image" src="https://github.com/user-attachments/assets/61b18c7d-1448-4ee3-92d2-f55cfc4feacd" />
+
+### ERROS_PROCESSAMENTO     -> Guarda os erros encontrados durante o processamento.
+<img width="950" height="230" alt="image" src="https://github.com/user-attachments/assets/51006a63-5280-43b0-8d1e-3b6b65f2f27f" />
+
+### HISTORICO_TRANSACOES    -> Guarda o histórico das transações processadas.
+<img width="952" height="360" alt="image" src="https://github.com/user-attachments/assets/e1812c51-6993-4e11-8b75-06fdf5491da1" />
+
 
 ## Relatórios gerados
 
